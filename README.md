@@ -33,22 +33,6 @@ Deep Learning: TensorFlow, Keras (trained in Google Colab)
 
 Other Tools: Python, REST API
 
-📂 Project Structure
-Smart-Healthcare/
-│── backend/              # Flask backend & API routes
-│── frontend/             # React.js frontend
-│── model/                # Deep Learning model & scripts
-│── static/               # Static assets (CSS, JS, Images)
-│── templates/            # HTML templates (if Flask rendering used)
-│── requirements.txt      # Python dependencies
-│── package.json          # React dependencies
-│── README.md             # Project documentation
-
-⚙️ Installation & Setup
-🔹 Clone the Repository
-git clone https://github.com/your-username/smart-healthcare.git
-cd smart-healthcare
-
 🔹 Backend Setup (Flask + Model)
 cd backend
 pip install -r requirements.txt
