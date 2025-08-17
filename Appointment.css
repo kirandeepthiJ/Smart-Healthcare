@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background-image: url('https://media.globaldev.tech/images/how_to_build_a_doctor_appointment_app_for_yo.format-jpeg.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: linear-gradient(to right, #dbeafe, #e0f7fa); /* soft blue gradient */
+    /* background-size: cover;
+    background-repeat: no-repeat; */ 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .booking-form-container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem 3rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    transition: all 0.3s ease;
+  }
+  
+  .booking-form-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 0.3rem;
+    display: block;
+  }
+  
+  .booking-form input,
+  .booking-form select {
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: 0.3s;
+    background-color: #f9f9f9;
+  }
+  
+  .booking-form input:focus,
+  .booking-form select:focus {
+    outline: none;
+    border-color: #4a90e2;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+  }
+  
+  .submit-button {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 0.9rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #357abd;
+  }
+  
+  .submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .no-slots-message {
+    font-style: italic;
+    color: #888;
+    margin-top: 0.3rem;
+  }
+  
+  @media (max-width: 600px) {
+    .booking-form-container {
+      padding: 1.5rem;
+      margin: 1rem;
+    }
+  }
+  

@@ -1,0 +1,156 @@
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.home-page {
+  text-align: center;
+  color: #fff;
+  padding: 120px 20px 50px;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .welcome-text, .info-section {
+    max-width: 98vw;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .navbar {
+    padding: 10px 5vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .welcome-text {
+    margin-top: 70px;
+    padding: 18px 6px;
+    font-size: 1rem;
+  }
+  .info-section {
+    padding: 24px 8px;
+    margin-top: 36px;
+    font-size: 0.98rem;
+  }
+  .navbar {
+    padding: 8px 2vw;
+    font-size: 0.96rem;
+  }
+}
+
+.home-page::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.55);
+  z-index: -1;
+}
+
+.welcome-text {
+  margin-top: 60px;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: none;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.welcome-text h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.welcome-text p {
+  font-size: 1.25rem;
+  color: #e0e0e0;
+  font-weight: 300;
+}
+
+.info-section {
+  background-color: rgba(255, 255, 255, 0.07);
+  padding: 18px 10px;
+  margin-top: 24px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.info-section h2 {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.info-section p {
+  color: #e0e0e0;
+  font-size: 1.1rem;
+}
+
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px auto;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  color: white;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+}
+
+.info-section {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 60px 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
