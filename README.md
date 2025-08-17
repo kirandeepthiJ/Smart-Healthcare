@@ -72,5 +72,18 @@ Output: Predicted Blood Group (A, B, AB, O, +ve/-ve)
 
 📸 Screenshots
 ![WhatsApp Image 2025-04-29 at 10 41 53_38245936](https://github.com/user-attachments/assets/fe8a7656-b6bd-4f7a-b75f-61b5f18da7fd)
+![WhatsApp Image 2025-04-29 at 10 41 53_ce24a728](https://github.com/user-attachments/assets/a193d259-4b4f-4a84-a9ee-1e4acf78a830)
+![WhatsApp Image 2025-04-29 at 10 41 54_b54717b9](https://github.com/user-attachments/assets/f3cd0902-eed5-4f7d-ad05-dd60f67e06e3)
+![WhatsApp Image 2025-04-29 at 10 42 02_62693d51](https://github.com/user-attachments/assets/2c3d1b54-d4f8-4a5f-a773-0c45429bb2f4)
+![WhatsApp Image 2025-04-29 at 10 42 01_1a854199](https://github.com/user-attachments/assets/8ea6bcbc-41b5-4439-ac88-edc1cb2de86e)
+![WhatsApp Image 2025-04-29 at 10 42 02_c4615b2a](https://github.com/user-attachments/assets/f0d3cc48-ac85-407a-9067-52b82922ca60)
+![WhatsApp Image 2025-04-29 at 10 42 01_c3c4d502](https://github.com/user-attachments/assets/a8415286-e6b6-4f8c-9538-ae2582605beb)
+
+
+
+
+
+
+
 
 
