@@ -60,12 +60,6 @@ npm install
 npm start
 
 
-The app will run on:
-
-Frontend → http://localhost:3000
-
-Backend API → http://localhost:5000
-
 📊 Deep Learning Model
 
 Input: Fingerprint image (224x224)
@@ -77,15 +71,6 @@ Model: CNN with Softmax output for multi-class classification
 Output: Predicted Blood Group (A, B, AB, O, +ve/-ve)
 
 📸 Screenshots
+![WhatsApp Image 2025-04-29 at 10 41 53_38245936](https://github.com/user-attachments/assets/fe8a7656-b6bd-4f7a-b75f-61b5f18da7fd)
 
-(Add some UI/model screenshots here for better presentation)
 
-🤝 Contribution
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-📜 License
-
-This project is licensed under the MIT License.
-
-✨ Smart Healthcare – Bringing AI into Healthcare for Smarter Solutions
